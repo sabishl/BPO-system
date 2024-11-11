@@ -1,0 +1,125 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  /* Header styles */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 25px 0;
+  }
+  
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h1 {
+    margin-left: 10px;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .header nav ul li {
+    margin-right: 10px;
+  }
+  
+  .header nav ul li button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Project Cards styles */
+  .project-cards {
+    padding: 50px 0;
+  }
+  
+  .project-card {
+    background-color: #333;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .project-card h2 {
+    color: #333;
+  }
+  .header-right button{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+  }
+
+  .header-right button:hover {
+    background-color: hsl(211, 100%, 35%);
+  }
+  
+  .buttons button {
+    width: 150px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  .add-employee{
+    padding:15px;
+    height: 20px;
+    width: 300px;
+  }
+
+  button{
+    font-size: 15px;
+  }
+  .new-employee{
+    background-color: burlywood;
+  }
+  
+  .completed {
+    background-color: gray;
+  }
+  
+  .reject {
+    color: white;
+    background-color: red;
+  }
+  
+  .accept {
+    color: white;
+    background-color: green;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  

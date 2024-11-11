@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Home Page</title>
+  <link rel="stylesheet" href="singleProject.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-left">
+        <h1>Admin Dashboard</h1>
+      </div>
+      <nav class="header-right">
+        <ul>
+          <li> <button>Create Account</button></li>
+          <li> <button>New Projects</button></li>
+          <li> <button>Ongoing Projects</button></li>
+          <li> <button>Completed Projects</button></li>
+          <li> <button>logout</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="project-cards">
+    <div class="container">
+      <div class="project-card">
+        <h2 style="color: white;">Project Name</h2><br>
+        <p style="color: white;">Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><br>
+        <p style="color: white;">Project Status: Ongoing</p><br>
+        <p style="color: white;">Client Name: John Doe</p><br>
+        <p style="color: white;">Client Email: john@example.com</p><br>
+        <p style="color: white;">Employees: Employee 1, Employee 2</p><br>
+        <label style="color: white;">Employee Email :</label>
+        <input type="text" class="add-employee" name="employee" placeholder="Enter the employee email">
+        <div class="buttons">
+         <button class="new-employee">Add Employee</button>
+          <button class="completed">Mark as Completed</button>
+          <button class="reject">Reject</button>
+          <button class="accept">Accept</button>
+        </div>
+      </div>
+      <!-- More project cards can be added here -->
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Admin Dashboard</p>
+    </div>
+  </footer>
+
+</body>
+</html>
